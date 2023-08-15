@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: champ-user-inquiry
     app.kubernetes.io/instance: champ-user-inquiry
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app.kubernetes.io/name: champ-user-inquiry
