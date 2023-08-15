@@ -6,11 +6,7 @@ app:
 
 server:
   port: 8080
-  writetimeout: 15
-  readtimeout: 15
-  idletimeout: 60
-  ctx-timeout: 10
-  force-retry: true
+  timeout: 300
 
 log:
   environment: production
